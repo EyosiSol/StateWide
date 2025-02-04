@@ -32,7 +32,7 @@
   display: flex;
   flex-direction: column;
   align-items: end;
-  gap: 20px;
+  gap: 12px;
   color: white;
 }
 .top > a {
@@ -56,16 +56,19 @@
 
 .mid {
   display: grid;
-  grid-template-columns: 50% 10% 30%;
-  align-items: start;
+  grid-template-columns: 50% 5% 35%;
+  align-items: center;
   height: auto;
   justify-content: space-between;
 }
 .mid button {
   background-color: #ff5200;
-  padding: 10px;
-  border-radius: 5px;
+  padding: 6px 24px;
+  border-radius: 3px;
   border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
 }
 
 .content {
@@ -84,10 +87,10 @@
   grid-column: 2;
 }
 .content h1 {
-  font-size: 48px;
+  font-size: 36px;
 }
 .content p {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.5;
 }
 .zip {
