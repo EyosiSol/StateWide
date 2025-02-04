@@ -628,3 +628,90 @@ form {
 .call2 button:hover {
   background-color: #0360c4;
 }
+
+.footers {
+  background-color: #1f1f1f;
+  color: #ffffff;
+  line-height: 1.6;
+}
+.footer {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.main-sections {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.italic-text {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.contact-info {
+  margin-bottom: 20px;
+}
+
+.service-request {
+  display: inline-block;
+  padding: 8px 20px;
+  border: 1px solid #ffffff;
+  text-decoration: none;
+  color: #ffffff;
+  margin: 10px 0;
+}
+
+.tagline {
+  margin: 20px 0;
+}
+
+.additional-locations {
+  border-top: 1px solid #333;
+  padding-top: 40px;
+}
+
+.locations-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.locations-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.location {
+  margin-bottom: 20px;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin-bottom: 8px;
+}
