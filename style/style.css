@@ -679,26 +679,6 @@ h2 {
   margin: 20px 0;
 }
 
-.additional-locations {
-  border-top: 1px solid #333;
-  padding-top: 40px;
-}
-
-.locations-title {
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-.locations-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 30px;
-}
-
-.location {
-  margin-bottom: 20px;
-}
-
 a {
   color: #ffffff;
   text-decoration: none;
