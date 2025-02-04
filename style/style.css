@@ -5,6 +5,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+  width: 100%;
 }
 .icon img {
   width: 180px;
@@ -697,4 +699,217 @@ ul {
 
 li {
   margin-bottom: 8px;
+}
+
+/* responsiveness */
+
+/* Responsive Design */
+@media screen and (max-width: 1024px) {
+  .hero {
+    padding: 12px 80px;
+    gap: 80px;
+    width: 100vw;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu {
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+  }
+
+  .mid {
+    grid-template-columns: 100%;
+    gap: 20px;
+  }
+  .mid .Logos {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .zip {
+    grid-column: 1;
+    width: 100%;
+  }
+
+  .states {
+    flex-direction: column;
+    align-items: center;
+  }
+  .vidSection {
+    grid-template-columns: 100%;
+    padding: 40px;
+  }
+
+  .vidSection .texts {
+    text-align: center;
+  }
+
+  .cta {
+    grid-template-columns: 100%;
+    padding: 40px;
+    text-align: center;
+  }
+
+  .companies {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100vw;
+  }
+  .secondvid {
+    grid-template-columns: 100%;
+    width: 100vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    padding: 12px 40px;
+    gap: 40px;
+    width: 100vw;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .mid {
+    grid-template-columns: 100%;
+    text-align: center;
+  }
+
+  .zip {
+    width: 100%;
+  }
+
+  .offers {
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+  }
+
+  .services .servicePics {
+    grid-template-columns: 1fr;
+    width: 100vw;
+  }
+
+  .process .steps {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .vidSection {
+    padding: 20px;
+  }
+
+  .vidSection .vid {
+    padding: 20px;
+  }
+
+  .cta {
+    padding: 20px;
+  }
+
+  .cta2 {
+    padding: 40px;
+    text-align: center;
+  }
+
+  .cta2 p {
+    width: 100%;
+  }
+
+  .footer {
+    text-align: center;
+  }
+
+  .main-sections {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hero {
+    padding: 12px 20px;
+    gap: 20px;
+    width: 100%;
+  }
+
+  .icon img {
+    width: 120px;
+    height: 60px;
+  }
+
+  .content h1 {
+    font-size: 24px;
+  }
+
+  .content p {
+    font-size: 14px;
+  }
+
+  .menu {
+    text-align: center;
+  }
+
+  .mid {
+    grid-template-columns: 100%;
+    width: 100vw;
+  }
+
+  .zip {
+    width: 100%;
+  }
+
+  .zip h2 {
+    font-size: 18px;
+  }
+
+  .offers .one {
+    width: 100%;
+  }
+
+  .services .servicePics {
+    grid-template-columns: 1fr;
+  }
+
+  .vidSection {
+    padding: 10px;
+  }
+
+  .vidSection .vid {
+    padding: 10px;
+  }
+
+  .cta {
+    padding: 10px;
+  }
+
+  .cta2 {
+    padding: 20px;
+  }
+
+  .cta2 p {
+    width: 100%;
+  }
+
+  .footer {
+    text-align: center;
+  }
+
+  .main-sections {
+    grid-template-columns: 1fr;
+  }
+  .companies {
+  }
 }
