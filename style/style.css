@@ -304,9 +304,11 @@
 .vidSection {
   background-color: #004ab3;
   display: grid;
-  grid-template-columns: 60% 40%;
-  gap: 20px;
-  padding: 80px 160px;
+  grid-template-columns: 40% 60%;
+  gap: 32px;
+  padding: 60px 180px;
+  justify-content: center;
+  align-items: center;
 }
 .vidSection img {
   width: 160px;
@@ -319,8 +321,41 @@
   flex-direction: column;
   gap: 20px;
   color: white;
-  border: 1px solid wheat;
 }
 .vidSection .middle {
   width: 100%;
+}
+
+.vidSection .texts .head {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 48px;
+}
+
+.vidSection .texts .middle p {
+  font-size: 14px;
+}
+.vidSection .vid {
+  height: auto;
+  width: 100%;
+  padding: 60px 40px;
+  background-color: white;
+  border-radius: 12px;
+}
+.vidSection .vid iframe {
+  width: 100%;
+}
+
+.vidSection .buttons button {
+  background: none;
+  border: 1px solid white;
+  padding: 8px 12px;
+  color: white;
+  font-weight: 600;
+}
+
+.vidSection .buttons button:hover {
+  background: white;
+  cursor: pointer;
+  color: #004ab3;
 }
