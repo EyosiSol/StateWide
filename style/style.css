@@ -27,13 +27,26 @@
   display: flex;
   justify-content: space-between;
   padding-top: 24px;
+  color: white;
 }
 .menu {
   display: flex;
   flex-direction: column;
   align-items: end;
   gap: 20px;
+  color: white;
 }
+.top > a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+.bottom > a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
 .top,
 .menu .mid,
 .bottom {
@@ -199,4 +212,115 @@
 .statesdiv h4 {
   text-align: center;
   font-size: 16px;
+}
+
+.offers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  gap: 48px;
+}
+
+.offers .one {
+  width: 360px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.offers .one .info {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.offers .one img {
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  height: 240px;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1);
+}
+
+.offers .one img:hover {
+  transform: scale(1.1);
+}
+
+.offers .one h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 15px 0 5px;
+  color: #333;
+}
+
+.offers .one p {
+  font-size: 14px;
+  color: #666;
+  margin: 5px 0;
+}
+
+.offers .one .expiry {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 13px;
+}
+
+.offers .one .expiry a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.offers .one .expiry a:hover {
+  text-decoration: underline;
+}
+
+.offers .one .info button {
+  width: 100%;
+  padding: 15px;
+  background: #ff6600;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+  border-radius: 4px;
+}
+
+.offers .one button:hover {
+  background: #e65c00;
+}
+
+.vidSection {
+  background-color: #004ab3;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  gap: 20px;
+  padding: 80px 160px;
+}
+.vidSection img {
+  width: 160px;
+  height: 90px;
+}
+
+.vidSection .texts {
+  grid-column: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: white;
+  border: 1px solid wheat;
+}
+.vidSection .middle {
+  width: 100%;
 }
