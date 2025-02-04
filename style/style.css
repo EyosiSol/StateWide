@@ -63,6 +63,12 @@
   height: auto;
   justify-content: space-between;
 }
+.mid button {
+  background-color: #ff5200;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
 
 .content {
   grid-column: 1;
@@ -358,4 +364,101 @@
   background: white;
   cursor: pointer;
   color: #004ab3;
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.services .texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  width: 80%;
+  text-align: center;
+  color: gray;
+}
+.services .texts h2 {
+  font-size: 36px;
+  color: #004ab3;
+}
+.services .texts p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.services .servicePics {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.card {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.card img {
+  width: 100%;
+  display: block;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover img {
+  transform: scale(1.05);
+  filter: brightness(50%);
+  overlay: 0.5;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  width: max-content;
+  transform: translateX(-50%);
+  background: #e65c00;
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.description {
+  position: absolute;
+  bottom: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  width: 80%;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.card:hover .description {
+  opacity: 1;
+}
+
+.card:hover .description {
+  opacity: 1;
 }
