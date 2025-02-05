@@ -9,8 +9,6 @@
   width: 100%;
 }
 
-body {}
-
 .icon img {
   width: 180px;
   height: 90px;
@@ -46,13 +44,13 @@ body {}
   color: white;
 }
 
-.top>a {
+.top > a {
   color: white;
   text-decoration: none;
   font-weight: 600;
 }
 
-.bottom>a {
+.bottom > a {
   color: white;
   text-decoration: none;
   font-weight: 600;
@@ -268,7 +266,6 @@ form {
   padding-top: 80px;
   padding-bottom: 80px;
   gap: 48px;
-  max-width: 100vw;
   overflow-x: hidden;
 }
 
@@ -358,8 +355,7 @@ form {
   padding: 60px 180px;
   justify-content: center;
   align-items: center;
-  max-width: 100vw;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .vidSection img {
@@ -905,7 +901,6 @@ li {
   .offers {
     flex-direction: column;
     align-items: center;
-    width: 100vw;
   }
 
   .services .servicePics {
@@ -919,11 +914,6 @@ li {
   }
 
   .vidSection {
-    padding: 20px;
-    
-  }
-
-  .vidSection .vid {
     padding: 20px;
   }
 
@@ -952,7 +942,6 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
   }
 
   .head {
@@ -966,28 +955,17 @@ li {
   }
 }
 
-
 @media screen and (max-width: 480px) {
-  .vidSection {
-    max-width: 100vw;
-  }
- 
-
-  .vidSection>.texts {
+  .vidSection > .texts {
     display: flex;
     flex-direction: column;
-    max-width: 100vw !important;
     border: 1px solid red;
     padding: 1rem;
     margin: 0;
   }
 
-  .video>.middle {
+  .video > .middle {
     width: 399px;
-  }
-
-  .vidSection>.text {
-    max-width: 100vw !important;
   }
 
   .hero {
@@ -1003,7 +981,6 @@ li {
 
   .head h1 {
     font-size: 24px;
-
   }
 
   .head img {
@@ -1018,7 +995,6 @@ li {
 
   .content h1 {
     font-size: 20px;
-
   }
 
   .content p {
@@ -1052,14 +1028,6 @@ li {
     grid-template-columns: 1fr;
   }
 
-  .vidSection {
-    padding: 10px;
-  }
-
-  .vidSection .vid {
-    padding: 10px;
-  }
-
   .cta {
     padding: 10px;
   }
@@ -1080,5 +1048,6 @@ li {
     grid-template-columns: 1fr;
   }
 
-  .companies {}
+  .companies {
+  }
 }
