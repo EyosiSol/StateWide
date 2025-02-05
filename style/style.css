@@ -8,10 +8,12 @@
   box-sizing: border-box;
   width: 100%;
 }
+
 .icon img {
   width: 180px;
   height: 90px;
 }
+
 .hero {
   padding: 12px 160px 64px 160px;
   /* background-image: url("../images/herobanner.jpg"); */
@@ -24,11 +26,15 @@
   gap: 120px;
   color: white;
 }
+
 .navbar {
   display: flex;
   justify-content: space-between;
   padding-top: 24px;
   color: white;
+}
+.menu-toggle{
+  display: none;
 }
 .menu {
   display: flex;
@@ -37,12 +43,14 @@
   gap: 12px;
   color: white;
 }
-.top > a {
+
+.top>a {
   color: white;
   text-decoration: none;
   font-weight: 600;
 }
-.bottom > a {
+
+.bottom>a {
   color: white;
   text-decoration: none;
   font-weight: 600;
@@ -63,6 +71,7 @@
   height: auto;
   justify-content: space-between;
 }
+
 .mid button {
   background-color: #ff5200;
   padding: 6px 24px;
@@ -88,13 +97,16 @@
   content: "";
   grid-column: 2;
 }
+
 .content h1 {
   font-size: 36px;
 }
+
 .content p {
   font-size: 16px;
   line-height: 1.5;
 }
+
 .zip {
   display: flex;
   flex-direction: column;
@@ -105,10 +117,12 @@
   padding: 20px;
   border-radius: 6px;
 }
+
 .zip h2 {
   font-size: 24px;
   text-align: center;
 }
+
 .form {
   display: flex;
   flex-direction: column;
@@ -121,12 +135,14 @@
   border-radius: 8px;
   gap: 12px;
 }
+
 form {
   display: flex;
   flex-direction: column;
   gap: 12px;
   width: 100%;
 }
+
 .zip input {
   width: 100%;
   padding: 6px;
@@ -135,31 +151,37 @@ form {
   background-color: #ffffff;
   font-size: 16px;
 }
+
 .head h3 {
   font-size: 16px;
   color: black;
 }
+
 .Logos {
   display: flex;
   width: 100%;
   overflow: wrap;
 }
+
 .Logos img {
   width: 180px;
   height: 100px;
   margin-right: 20px;
 }
+
 .head h4 {
   font-size: 14px;
   color: rgb(157, 155, 155);
   font-weight: 400;
 }
+
 .head {
   display: flex;
   flex-direction: column;
   gap: 8px;
   align-items: center;
 }
+
 .form button {
   width: 100%;
   padding: 10px;
@@ -171,15 +193,18 @@ form {
   font-weight: 600;
   cursor: pointer;
 }
+
 .form button:hover {
   background-color: #ff6a00;
 }
+
 .form p {
   font-size: 12px;
   color: rgb(157, 155, 155);
   text-decoration: underline;
   cursor: pointer;
 }
+
 .statesdiv {
   display: flex;
   flex-direction: column;
@@ -193,6 +218,7 @@ form {
   margin-top: 4px;
   margin-bottom: 4px;
 }
+
 .states {
   display: flex;
   gap: 20px;
@@ -201,15 +227,18 @@ form {
   padding-top: 80px;
   padding-bottom: 80px;
 }
+
 .states img {
   width: 220px;
   height: 200px;
   cursor: pointer;
 }
+
 .states img:hover {
   transition: transform 0.3s ease-in-out;
   transform: scale(1.1);
 }
+
 .statesdiv .texts {
   display: flex;
   flex-direction: column;
@@ -217,10 +246,12 @@ form {
   gap: 8px;
   color: white;
 }
+
 .statesdiv h2 {
   text-align: center;
   font-size: 36px;
 }
+
 .statesdiv h4 {
   text-align: center;
   font-size: 16px;
@@ -322,6 +353,7 @@ form {
   justify-content: center;
   align-items: center;
 }
+
 .vidSection img {
   width: 160px;
   height: 90px;
@@ -334,6 +366,7 @@ form {
   gap: 20px;
   color: white;
 }
+
 .vidSection .middle {
   width: 100%;
 }
@@ -347,6 +380,7 @@ form {
 .vidSection .texts .middle p {
   font-size: 14px;
 }
+
 .vidSection .vid {
   height: auto;
   width: 100%;
@@ -354,6 +388,7 @@ form {
   background-color: white;
   border-radius: 12px;
 }
+
 .vidSection .vid iframe {
   width: 100%;
 }
@@ -391,10 +426,12 @@ form {
   text-align: center;
   color: gray;
 }
+
 .services .texts h2 {
   font-size: 36px;
   color: #004ab3;
 }
+
 .services .texts p {
   font-size: 16px;
   line-height: 1.5;
@@ -479,12 +516,14 @@ form {
   padding: 80px 40px;
   color: #004ab3;
 }
+
 .process .steps {
   display: flex;
   justify-content: center;
   width: 100%;
   gap: 20px;
 }
+
 .process .card {
   display: flex;
   flex-direction: column;
@@ -497,10 +536,12 @@ form {
 .process .steps img {
   width: 100px;
 }
+
 .process .steps h3 {
   text-align: center;
   color: #004ab3;
 }
+
 .process .steps .desc {
   text-align: center;
   font-size: 12px;
@@ -515,10 +556,12 @@ form {
 .secondvid .video {
   border: 1px solid red;
 }
+
 .secondvid iframe {
   width: 100%;
   height: 100%;
 }
+
 .secondvid .descriptions {
   padding: 48px 32px;
   display: flex;
@@ -528,6 +571,7 @@ form {
   color: #004ab3;
   gap: 20px;
 }
+
 .secondvid .middle {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -543,10 +587,12 @@ form {
   gap: 12px;
   color: #004ab3;
 }
+
 .secondvid .cards img {
   width: 48px;
   height: 36px;
 }
+
 .secondvid .cards p {
   font-size: 12px;
   color: #707070;
@@ -569,6 +615,7 @@ form {
   background-size: cover;
   color: white;
 }
+
 .call {
   display: flex;
   flex-direction: column;
@@ -576,6 +623,7 @@ form {
   align-items: center;
   gap: 12px;
 }
+
 .call button {
   color: white;
   width: 100%;
@@ -586,6 +634,7 @@ form {
   border: 1px solid white;
   border-radius: 6px;
 }
+
 .call button:hover {
   color: white;
   width: 100%;
@@ -596,6 +645,7 @@ form {
   cursor: pointer;
   border: 1px solid white;
 }
+
 .call a {
   color: white;
 }
@@ -611,16 +661,19 @@ form {
   color: white;
   gap: 20px;
 }
+
 .cta2 .word2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
 .cta2 p {
   width: 640px;
   text-align: center;
 }
+
 .call2 button {
   padding: 12px 54px;
   background-color: #1f50a3;
@@ -630,6 +683,7 @@ form {
   font-weight: 600;
   border-radius: 12px;
 }
+
 .call2 button:hover {
   background-color: #0360c4;
 }
@@ -639,6 +693,7 @@ form {
   color: #ffffff;
   line-height: 1.6;
 }
+
 .footer {
   padding: 40px 20px;
   max-width: 1200px;
@@ -726,10 +781,12 @@ li {
     grid-template-columns: 100%;
     gap: 20px;
   }
+
   .mid .Logos {
     flex-wrap: wrap;
     justify-content: center;
   }
+
   .zip {
     grid-column: 1;
     width: 100%;
@@ -739,6 +796,7 @@ li {
     flex-direction: column;
     align-items: center;
   }
+
   .vidSection {
     grid-template-columns: 100%;
     padding: 40px;
@@ -759,6 +817,7 @@ li {
     justify-content: center;
     width: 100vw;
   }
+
   .secondvid {
     grid-template-columns: 100%;
     width: 100vw;
@@ -766,10 +825,20 @@ li {
 }
 
 @media screen and (max-width: 768px) {
+  .menu-toggle{
+    display: block;
+    font-size: 40px;
+  }
   .hero {
     padding: 12px 40px;
     gap: 40px;
     width: 100vw;
+  }
+
+  .bottom {
+    display: hidden;
+
+
   }
 
   .navbar {
@@ -910,6 +979,6 @@ li {
   .main-sections {
     grid-template-columns: 1fr;
   }
-  .companies {
-  }
+
+  .companies {}
 }
