@@ -42,18 +42,20 @@
   align-items: end;
   gap: 12px;
   color: white;
+  width: 100%;
 }
 
-.top > a {
+/* .top > a {
   color: white;
   text-decoration: none;
   font-weight: 600;
-}
+} */
 
 .bottom > a {
   color: white;
   text-decoration: none;
   font-weight: 600;
+  width: auto;
 }
 
 .top,
@@ -61,7 +63,9 @@
 .bottom {
   display: flex;
   justify-content: space-between;
-  gap: 10px;
+  gap: 20px;
+  width: 100%;
+  border: 1px solid blue;
 }
 
 .mid {
@@ -605,15 +609,6 @@ form {
   color: #707070;
 }
 
-.companies {
-  display: flex;
-  gap: 48px;
-  padding: 64px 12px;
-  background-color: #dfdfdf;
-  max-width: 100vw;
-  overflow-x: hidden;
-}
-
 .cta {
   display: grid;
   gap: 48px;
@@ -659,46 +654,6 @@ form {
 
 .call a {
   color: white;
-}
-
-.cta2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 80px;
-  background: linear-gradient(rgba(0, 75, 179, 0.5), rgba(0, 74, 179, 0.5)),
-    url(/icons/hero1-1.webp);
-  color: white;
-  gap: 20px;
-  max-width: 100vw;
-  overflow-x: hidden;
-}
-
-.cta2 .word2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.cta2 p {
-  width: 640px;
-  text-align: center;
-}
-
-.call2 button {
-  padding: 12px 54px;
-  background-color: #1f50a3;
-  color: white;
-  border: 1px solid #1f50a3;
-  font-size: 16px;
-  font-weight: 600;
-  border-radius: 12px;
-}
-
-.call2 button:hover {
-  background-color: #0360c4;
 }
 
 .footers {
@@ -832,13 +787,6 @@ li {
     padding: 40px;
     text-align: center;
   }
-
-  .companies {
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100vw;
-  }
-
   .secondvid {
     grid-template-columns: 100%;
     margin-top: 20px;
@@ -939,15 +887,6 @@ li {
     padding: 20px;
   }
 
-  .cta2 {
-    padding: 40px;
-    text-align: center;
-  }
-
-  .cta2 p {
-    width: 100%;
-  }
-
   .footer {
     text-align: center;
   }
@@ -971,24 +910,13 @@ li {
     width: 100px;
     height: auto;
   }
-  .companies {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    padding: 20px;
-  }
-  .companies img {
-    width: 120px;
-    height: 60px;
-  }
 }
 
 @media screen and (max-width: 480px) {
   .vidSection > .texts {
     display: flex;
     flex-direction: column;
+    border: 1px solid red;
     padding: 1rem;
     margin: 0;
   }
@@ -1082,14 +1010,6 @@ li {
     padding: 10px;
   }
 
-  .cta2 {
-    padding: 20px;
-  }
-
-  .cta2 p {
-    width: 100%;
-  }
-
   .footer {
     text-align: center;
   }
@@ -1098,20 +1018,7 @@ li {
     grid-template-columns: 1fr;
   }
 
-  .companies {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    padding: 20px;
-  }
-  .companies img {
-    width: 100px;
-    height: 50px;
-  }
-  .cta,
-  .cta2 {
+  .cta {
     display: flex;
     flex-direction: column;
     justify-content: center;
