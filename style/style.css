@@ -65,7 +65,6 @@
   justify-content: space-between;
   gap: 20px;
   width: 100%;
-  border: 1px solid blue;
 }
 
 .mid {
@@ -360,6 +359,8 @@ form {
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  scrollbar-width: none;
+  border-radius: 12px;
 }
 
 .vidSection img {
@@ -390,15 +391,15 @@ form {
 }
 
 .vidSection .vid {
-  height: auto;
+  height: 100%;
   width: 100%;
-  padding: 60px 40px;
   background-color: white;
   border-radius: 12px;
 }
 
 .vidSection .vid iframe {
   width: 100%;
+  height: 100%;
 }
 
 .vidSection .buttons button {
@@ -566,6 +567,8 @@ form {
   overflow-x: hidden;
   margin-top: 20px;
   margin-bottom: 20px;
+  height: auto;
+  scrollbar-width: none;
 }
 
 .secondvid iframe {
@@ -910,6 +913,14 @@ li {
     width: 100px;
     height: auto;
   }
+  .vid iframe {
+    width: 100%;
+    height: 100%;
+  }
+  .vidSection .vid {
+    height: 100%;
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -944,6 +955,10 @@ li {
     gap: 20px;
   }
 
+  iframe {
+    width: 100%;
+    height: 100%;
+  }
   .hero {
     padding: 12px 20px;
     gap: 20px;
